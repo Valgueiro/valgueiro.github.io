@@ -7,7 +7,6 @@ A short introduction of this app could easily go here.
 
 I'll keep here something like a requirements page and I'll also put any ideas that appears on my mind.
 
-* Use ember octane
-* Github workflows (anyone that automatically deploys on gh-pages the builded bundle)
+* Deploy app on netlify (and add worflow to CD) 
 * Enable Dependabot
 * Create an area for useful things like a Web Cam and Mic testing page.
