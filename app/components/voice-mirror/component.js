@@ -24,7 +24,6 @@ export default class VoiceMirrorComponent extends Component {
 
   @action
   async start() {
-    console.log('lala')
     this.audio.play();
   }
 
