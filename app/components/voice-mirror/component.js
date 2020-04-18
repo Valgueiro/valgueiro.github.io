@@ -8,6 +8,7 @@ export default class VoiceMirrorComponent extends Component {
   @tracked audio = '';
 
   constructor() {
+    // TODO revoke this permission
     super(...arguments);
     navigator.mediaDevices
       .getUserMedia({
@@ -23,6 +24,7 @@ export default class VoiceMirrorComponent extends Component {
 
   @action
   async start() {
+    console.log('lala')
     this.audio.play();
   }
 
