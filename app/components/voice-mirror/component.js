@@ -1,34 +1,32 @@
 import Component from '@glimmer/component';
 import { action } from '@ember/object';
 import { tracked } from '@glimmer/tracking';
-
+import getMediaDevicesPermissions from 'portifolio/utils/media-permissions';
 export default class VoiceMirrorComponent extends Component {
-  @tracked src = '';
-  @tracked stream = '';
   @tracked audio = '';
 
+  get isAudioAvailable() {
+    return Boolean(this.audio);
+  }
+
   constructor() {
-    // TODO revoke this permission
     super(...arguments);
-    navigator.mediaDevices
-      .getUserMedia({
-        audio: true,
-        video: false,
-      })
-      .then((stream) => {
-        this.stream = stream;
-        this.audio = new Audio();
-        this.audio.srcObject = this.stream;
-      });
+    getMediaDevicesPermissions()
+      .then((audio) => (this.audio = audio))
+      .catch(() => {});
   }
 
   @action
   async start() {
-    this.audio.play();
+    if (this.audio) {
+      this.audio.play();
+    }
   }
 
   @action
   async stop() {
-    this.audio.pause();
+    if (this.audio) {
+      this.audio.pause();
+    }
   }
 }
