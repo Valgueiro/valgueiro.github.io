@@ -9,12 +9,17 @@ A short introduction of this app could easily go here.
 
 I'll keep here something like a requirements page and I'll also put any ideas that appears on my mind.
 
-* ✅ Deploy app on netlify
-* 🔲 (Doing) Create an area for useful things like a Web Cam and Mic testing page.
-* 🔲 Add github worflow to CI
-* 🔲 Enable Dependabot
-* 🔲 Enable SonarQube
+- ✅ Deploy app on netlify
+- 🔲 (Doing) Create an area for useful things like a Web Cam and Mic testing page.
+- 🔲 Add github worflow to CI
+- 🔲 Enable Dependabot
+- 🔲 Enable SonarQube
 
 # Decisions 💡
 
-* I will use my own css to do stuff, so I will not use any css framework. let's display: flex things  
+- I will use my own css to do stuff, so I will not use any css framework. let's display: flex things
+
+# Things learned
+
+- How to get user audio using WEB APi
+- [SinonJS](https://sinonjs.org/) is DOPE!!
