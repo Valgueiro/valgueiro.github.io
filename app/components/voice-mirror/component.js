@@ -18,15 +18,11 @@ export default class VoiceMirrorComponent extends Component {
 
   @action
   async start() {
-    if (this.audio) {
-      this.audio.play();
-    }
+    this.audio.play();
   }
 
   @action
   async stop() {
-    if (this.audio) {
-      this.audio.pause();
-    }
+    this.audio.pause();
   }
 }
