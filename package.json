@@ -44,7 +44,7 @@
     "ember-resolver": "^8.0.0",
     "ember-sinon-qunit": "^5.0.0",
     "ember-source": "~3.18.0",
-    "ember-template-lint": "^2.4.0",
+    "ember-template-lint": "^2.8.0",
     "ember-welcome-page": "^4.0.0",
     "eslint": "7.1.0",
     "eslint-plugin-ember": "^8.4.0",
