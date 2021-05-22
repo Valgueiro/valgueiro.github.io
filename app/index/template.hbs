@@ -1,7 +1,7 @@
 <div class="bg-blue-100 flex flex-col">
   <div class="flex justify-end mr-10 mt-4">
-    <span class="mr-4">Brazil</span>
-    <span>USA</span>
+    <span class="mr-4"><img class="flag" src="usa.png" /></span>
+    <span><img class="flag" src="brazil.png" /></span>
   </div>
 
   <div class="w-full flex justify-center items-center mt-8 mb-20">
@@ -19,7 +19,7 @@
           💻 Working as a Software Engineer at C.E.S.A.R
         </li>
 
-        <li class="mt-5">
+        <li class="ml-1.5 mt-5">
           📍 Recife - Pernambuco - Brazil
         </li>
       </ul>
@@ -27,15 +27,14 @@
   </div>
 </div>
 
+<div class="container mx-auto flex flex-col justify-center mt-10 pb-10">
+  <h3 class="text-4xl font-bold	text-center text-blue-900">Apps</h3>
+  <ul class="mt-4">
+    {{#each this.model as |app|}}
+      <li>
+        <AppLink @route={{app.route}} @icon={{app.icon}} @title={{app.title}} @description={{app.description}} />
+      </li>
+    {{/each}}
+  </ul>
+</div>
 
-<h3>Implemented Routes</h3>
-<ul>
-  <li>
-    <LinkTo @route="mirror">Voice Mirror</LinkTo>
-  </li>
-</ul>
-
-
-<footer class="footer bg-blue-100 text-center">
-  Developed with 💙 and EmberJs by me
-</footer>
