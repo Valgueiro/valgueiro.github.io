@@ -1,8 +1,0 @@
-<h1>Voice Mirror</h1>
-
-{{#if this.isAudioAvailable}}
-  <input type="button" data-test-start-voice-mirror value="Start" {{on "click" this.start}}>
-  <input type="button" data-test-pause-voice-mirror value="Pause" {{on "click" this.stop}}>
-{{else}}
-  <h2 data-test-voice-error-message>You did not give me permission to access your mic :(.</h2>
-{{/if}}
