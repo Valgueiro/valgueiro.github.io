@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: My Awesome PIC16B Adventure
+name: Mateus Valgueiro
 
 # Short bio or description (displayed in the header)
-description: Penguin Coder
+description: SRE and chef sometimes
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/PIC16B/PIC16B.github.io/master/images/ucla-math.png
@@ -18,15 +18,15 @@ avatar: https://raw.githubusercontent.com/PIC16B/PIC16B.github.io/master/images/
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: mateusvalgueiro@gmail.com
   facebook:
   flickr:
-  github: PIC16B/pic16b.github.io # replace with your repo
-  instagram:
-  linkedin:
+  github: Valgueiro # replace with your repo
+  instagram: valgueiro
+  linkedin: mateusvalgueiro
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: 
+  twitter: MateusValgueiro
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -34,14 +34,14 @@ footer-links:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus:
+disqus: mvalgueiro
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://valgueiro.github.io/
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
