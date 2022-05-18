@@ -64,7 +64,7 @@ locale                   : "en-US"
 title                    : Mateus Valgueiro
 email                    : mateusvalgueiro@gmail.com
 title_separator          : "-"
-subtitle                 : "and his world"
+subtitle                 : "SRE and chef sometimes"
 name                     : "Mateus Valgueiro"
 description              : >- # this means to ignore newlines until "baseurl:"
   Hello, this is my portifolio! Here you will find some articles about
@@ -73,8 +73,6 @@ description              : >- # this means to ignore newlines until "baseurl:"
 url                      : "https://valgueiro.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Valgueiro/valgueiro.github.io"
-teaser                   : "/assets/images/bio.jpg"
-logo                     : "/assets/images/bio.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -152,7 +150,7 @@ analytics:
 # Site Author
 author:
   name             : "Mateus Valgueiro"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio.jpg"
   bio              : "I am an SRE that loves to teach and learn new things"
   location         : "Recife, PE - BRAZIL"
   email            : "mateusvalgueiro@gmail.com"
