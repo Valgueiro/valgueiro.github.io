@@ -1,2 +1,0 @@
-up:
-	jekyll serve
